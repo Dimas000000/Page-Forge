@@ -313,9 +313,9 @@ select{
     }
     select{
         position: absolute;
-        top: 4vw;
-        right: 4vw;
-        font-size: 4vw;
+        top: 2vw;
+        right: 2vw;
+        font-size: 3.5vw;
         border-radius: 3vw;
         padding: 0.8vw;
     }
