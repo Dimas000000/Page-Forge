@@ -38,6 +38,7 @@ footer{
 }
 a{
     color: white;
+    width: auto;
 }
 select{
     border-style: none;
@@ -83,6 +84,7 @@ select{
     }
     #article-ter section h2{
         text-align: center;
+        margin-bottom: 2vw;
     }
     section{
         width: 40vw;
@@ -173,6 +175,7 @@ select{
     }
     #article-ter section h2{
         text-align: center;
+        margin-bottom: 1vw;
     }
     #article-sec section{
         display: flex;
@@ -272,6 +275,7 @@ select{
     }
     #article-ter section h2{
         text-align: center;
+        margin-bottom: 2.5vw;
     }
     #article-sec section{
         display: flex;
