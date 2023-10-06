@@ -164,7 +164,7 @@ select{
     #article-sec{
         display: flex;
         flex-direction: row;
-        margin-top: 2v;
+        padding-top: 4v;
     }
     #article-ter{
         display: flex;
