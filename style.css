@@ -168,7 +168,7 @@ select{
     #article-ter{
         display: flex;
         justify-content: space-around;
-        margin-bottom: 3vw;
+        margin-bottom: 4vw;
     }
     #article-ter section{
         text-align: justify;
