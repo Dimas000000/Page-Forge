@@ -164,7 +164,6 @@ select{
     #article-sec{
         display: flex;
         flex-direction: row;
-        padding-top: 4v;
     }
     #article-ter{
         display: flex;
@@ -179,6 +178,7 @@ select{
         margin-bottom: 1vw;
     }
     #article-sec section{
+        margin-top: 3vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
