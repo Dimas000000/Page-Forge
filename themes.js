@@ -1,19 +1,19 @@
 /* ------------ Elements ------------ */
 
-let body = document.querySelectorAll(".body-jsedit");
-let header = document.querySelectorAll(".header-jsedit");
-let section = document.querySelectorAll(".section-jsedit");
-let colorSection = document.querySelectorAll(".colorSection-jsedit");
-let h2 = document.querySelectorAll(".h2-jsedit");
-let footer = document.querySelectorAll(".footer-jsedit");
-let button = document.querySelectorAll(".button-jsedit");
-let selector = document.querySelectorAll(".selector-jsedit");
+const body = document.querySelectorAll(".body-jsedit");
+const header = document.querySelectorAll(".header-jsedit");
+const section = document.querySelectorAll(".section-jsedit");
+const colorSection = document.querySelectorAll(".colorSection-jsedit");
+const h2 = document.querySelectorAll(".h2-jsedit");
+const footer = document.querySelectorAll(".footer-jsedit");
+const button = document.querySelectorAll(".button-jsedit");
+const selector = document.querySelectorAll(".selector-jsedit");
 
 /* ------------ Selector ------------ */
 
-var theme = document.querySelector("#theme");
+let theme = document.querySelector("#theme");
 
-var savedTheme = localStorage.getItem("theme");
+let savedTheme = localStorage.getItem("theme");
 if (savedTheme) {
     theme.value = savedTheme;
     SetTheme(savedTheme);
