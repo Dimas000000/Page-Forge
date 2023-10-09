@@ -136,5 +136,58 @@ function SetTheme(Theme)
                 selector.style.backgroundColor = "#ff8e47";
             })
         break;
+        /* ------------ Purple ------------ */
+        case "light-purple":
+            body.forEach(function(body){
+                body.style.backgroundColor = "white";
+            })
+            header.forEach(function(header){
+                header.style.backgroundColor = "#d117cb";
+            })
+            section.forEach(function(section){
+                section.style.color = "black";
+            })
+            colorSection.forEach(function(colorSection){
+                colorSection.style.backgroundColor = "#d117cb";
+            })
+            h2.forEach(function(h2){
+                h2.style.color = "black";
+            })
+            footer.forEach(function(footer){
+                footer.style.backgroundColor = "#d117cb";
+            })
+            button.forEach(function(button){
+                button.style.backgroundColor = "#f720f0";
+            })
+            selector.forEach(function(selector){
+                selector.style.backgroundColor = "#f720f0";
+            })
+        break;
+        case "dark-purple":
+            body.forEach(function(body){
+                body.style.backgroundColor = "#202020";
+            })
+            header.forEach(function(header){
+                header.style.backgroundColor = "#bf04b9";
+            })
+            section.forEach(function(section){
+                section.style.color = "white";
+            })
+            colorSection.forEach(function(colorSection){
+                colorSection.style.backgroundColor = "#bf04b9";
+            })
+            h2.forEach(function(h2){
+                h2.style.color = "white";
+            })
+            footer.forEach(function(footer){
+                footer.style.backgroundColor = "#bf04b9";
+            })
+            button.forEach(function(button){
+                button.style.backgroundColor = "#d117cb";
+            })
+            selector.forEach(function(selector){
+                selector.style.backgroundColor = "#d117cb";
+            })
+        break;
     }
 }
