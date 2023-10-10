@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----- Editor ----- */
+body{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    width: 15vw;
+    height: 100vh;
+    background-color: #6C7DEA;
+}
+aside h1{
+    text-align: center;
+    color: white;
+    background-color: #8a97ea;
+    box-shadow: 0 0.5vw #ffffff10;
+    padding: 0.5vw;
+    font-size: 2vw;
+}
+article{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#viewer{
+    width: 69.4vw;
+    height: 69vh;
+    padding: 0.1vw;
+    margin: 0.2vw;
+    background-color: white;
+}
+article aside{
+    width: 70vw;
+    height: 30vh;
+    order: 1;
+}

@@ -3,6 +3,12 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+::-webkit-scrollbar{
+    width: 0.5vw;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(100, 100, 100);
+}
 .write{
     display: inline-block;
     overflow: hidden;

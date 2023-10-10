@@ -10,7 +10,6 @@ body{
 header{
     background-color: #6C7DEA;
 }
-
 footer{
     background-color: #6C7DEA;
 }
@@ -54,6 +53,7 @@ select{
         position: fixed;
         top: 0;
         height: 5vh;
+        box-shadow: 0 0.5vw 0.5vw rgba(0, 0, 0, 0.1);
     }
     header h1{
         font-size: 3.5vh;
@@ -61,9 +61,14 @@ select{
 
     /* ------------ Main ------------ */
     main{
-        background-color: rgb(255, 255, 255);
         width: 100vw;
         height: 90vh;
+        margin: 0;
+        padding: 0;
+    }
+    #editor{
+        width: 100vw;
+        height: 90.1vh;
     }
 
     /* ------------ Footer ------------ */
@@ -72,14 +77,15 @@ select{
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
-        font-size: 2vh;
+        font-size: min(2vh, 2vw);
         width: 100vw;
         position: fixed;
         bottom: 0;
         height: 5vh;
+        box-shadow: 0 -0.5vw 0.5vw rgba(0, 0, 0, 0.15);
     }
     select{
-        font-size: 2vh;
+        font-size: min(2vh, 2vw);
         border-radius: 2vw;
         padding: 0.2vw;
     }

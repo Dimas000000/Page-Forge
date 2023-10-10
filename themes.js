@@ -8,6 +8,8 @@ const h2 = document.querySelectorAll(".h2-jsedit");
 const footer = document.querySelectorAll(".footer-jsedit");
 const button = document.querySelectorAll(".button-jsedit");
 const selector = document.querySelectorAll(".selector-jsedit");
+const aside = document.querySelectorAll(".aside-jsedit");
+const h1 = document.querySelectorAll(".h1-jsedit");
 
 /* ------------ Selector ------------ */
 
@@ -56,6 +58,12 @@ function SetTheme(Theme)
             selector.forEach(function(selector){
                 selector.style.backgroundColor = "#8a97ea";
             })
+            aside.forEach(function(aside){
+                aside.style.backgroundColor = "#6C7DEA";
+            })
+            h1.forEach(function(h1){
+                h1.style.backgroundColor = "#8a97ea";
+            })
         break;
         case "dark-blue":
             body.forEach(function(body){
@@ -81,6 +89,12 @@ function SetTheme(Theme)
             })
             selector.forEach(function(selector){
                 selector.style.backgroundColor = "#6C7DEA";
+            })
+            aside.forEach(function(aside){
+                aside.style.backgroundColor = "#5468e8";
+            })
+            h1.forEach(function(h1){
+                h1.style.backgroundColor = "#6C7DEA";
             })
         break;
         /* ------------ Orange ------------ */
@@ -109,6 +123,12 @@ function SetTheme(Theme)
             selector.forEach(function(selector){
                 selector.style.backgroundColor = "#ff8e47";
             })
+            aside.forEach(function(aside){
+                aside.style.backgroundColor = "#ff8233";
+            })
+            h1.forEach(function(h1){
+                h1.style.backgroundColor = "#ff8e47";
+            })
         break;
         case "dark-orange":
             body.forEach(function(body){
@@ -134,6 +154,12 @@ function SetTheme(Theme)
             })
             selector.forEach(function(selector){
                 selector.style.backgroundColor = "#ff8e47";
+            })
+            aside.forEach(function(aside){
+                aside.style.backgroundColor = "#ff7a26";
+            })
+            h1.forEach(function(h1){
+                h1.style.backgroundColor = "#ff8e47";
             })
         break;
         /* ------------ Purple ------------ */
@@ -162,6 +188,12 @@ function SetTheme(Theme)
             selector.forEach(function(selector){
                 selector.style.backgroundColor = "#f720f0";
             })
+            aside.forEach(function(aside){
+                aside.style.backgroundColor = "#d117cb";
+            })
+            h1.forEach(function(h1){
+                h1.style.backgroundColor = "#f720f0";
+            })
         break;
         case "dark-purple":
             body.forEach(function(body){
@@ -187,6 +219,12 @@ function SetTheme(Theme)
             })
             selector.forEach(function(selector){
                 selector.style.backgroundColor = "#d117cb";
+            })
+            aside.forEach(function(aside){
+                aside.style.backgroundColor = "#bf04b9";
+            })
+            h1.forEach(function(h1){
+                h1.style.backgroundColor = "#d117cb";
             })
         break;
     }
