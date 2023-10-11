@@ -7,14 +7,18 @@
 /* ----- Editor ----- */
 body{
     display: flex;
-    justify-content: space-between;
 }
 aside{
-    width: 15vw;
     height: 100vh;
     background-color: #6C7DEA;
 }
-aside h1{
+#elementos{
+    width: 15vw;
+}
+#atributos{
+    width: 22vw;
+}
+h1{
     text-align: center;
     color: white;
     background-color: #8a97ea;
@@ -23,21 +27,18 @@ aside h1{
     font-size: 2vw;
 }
 article{
-    width: 70vw;
+    width: 63vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: black;
 }
 #viewer{
-    width: 69.4vw;
-    height: 69vh;
-    padding: 0.1vw;
-    margin: 0.2vw;
-    background-color: white;
+    width: 63vw;
+    height: 63vh;
+    background-color: rgb(114, 114, 114);
 }
-article aside{
-    width: 70vw;
-    height: 30vh;
+#archives{
+    width: 63vw;
+    height: 37vh;
     order: 1;
 }
