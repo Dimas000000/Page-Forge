@@ -16,38 +16,23 @@
     animation: digitar 2s steps(35, end) 1;
 }
 body{
-    background-color: white;
     color: white;
-}
-header{
-    background-color: #6C7DEA;
 }
 section{
     text-align: center;
-}
-#article-sec section{
-    background-color: #6C7DEA;
 }
 section h2{
     color: black;
 }
 button{
-    background-color: #8a97ea;
     border-style: none;
     color: white;
-}
-#article-ter section{
-    color: black;
-}
-footer{
-    background-color: #6C7DEA;
 }
 a{
     color: white;
 }
 select{
     border-style: none;
-    background-color: #8a97ea;
     color: white;
 }
 
@@ -122,6 +107,11 @@ select{
         align-items: center;
         padding: 2vw;
         font-size: 1.2vw;
+    }
+    select{
+        font-size: 1.2vw;
+        border-radius: 2vw;
+        padding: 0.5vw;
     }
 
     /* ------------ Animações ------------*/
@@ -210,6 +200,11 @@ select{
         align-items: center;
         padding: 2vw;
         font-size: 1.7vw;
+    }
+    select{
+        font-size: 1.7vw;
+        border-radius: 2vw;
+        padding: 0.5vw;
     }
 
     /* ------------ Animações ------------*/
@@ -302,6 +297,15 @@ select{
         flex-direction: column;
         padding: 2vw;
         font-size: 3vw;
+    }
+    footer p{
+        margin: 0.5vw;
+    }
+    select{
+        font-size: 3vw;
+        border-radius: 2vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
     }
 
     /* ------------ Animações ------------*/
