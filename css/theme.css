@@ -1,0 +1,40 @@
+/* ----- Claro ----- */
+.cor-tema-claro{
+    background-color: white;
+}
+.cor-text-claro{
+    color: black;
+}
+/* ----- Escuro ----- */
+.cor-tema-escuro{
+    background-color: rgb(32, 32, 32);
+}
+.cor-text-escuro{
+    color: white;
+}
+
+/* --------------- Cores --------------- */
+
+/* ---------- Mono ---------- */
+.cor-prim-mono{
+    background-color: rgb(0, 0, 0);
+}
+.cor-clara-mono{
+    background-color: rgb(32, 32, 32);
+}
+
+/* ---------- Azul ---------- */
+.cor-prim-azul{
+    background-color: rgb(0, 115, 255);
+}
+.cor-clara-azul{
+    background-color: rgb(55, 145, 255);
+}
+
+/* ---------- Laranja ---------- */
+.cor-prim-laranja{
+    background-color: rgb(255, 140, 0);
+}
+.cor-clara-laranja{
+    background-color: rgb(255, 164, 53);
+}
